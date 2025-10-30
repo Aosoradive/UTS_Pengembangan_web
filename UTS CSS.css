@@ -1,0 +1,188 @@
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px 0;
+    background-color: #ffffff77;
+    background-image: url(https://tse2.mm.bing.net/th/id/OIP.fSlHRwzohHEerdsgIFcWUgHaJb?pid=Api&P=0&h=220);
+   gap: 40px ;
+   flex-direction: column;
+   margin: 0 auto;
+   text-align: center;
+   width: 100%;
+   color: white;
+text-shadow: rgb(0, 0, 1) 2px 2px 2px;
+background-repeat:no-repeat;
+            background-attachment: fixed;
+             background-size:100% ;
+
+}
+
+    .menu ul {
+        list-style: none;
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        padding: 0 ;
+      }
+
+      .menu li {
+        display: flex;
+;
+      }
+      .menu a {
+        text-decoration: none;
+        color: inherit;}
+
+        .judul {
+            text-align: center;
+            color: white;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(109, 70, 18);
+    background-color: rgba(245, 245, 220, 0.415);
+    background-image: url(https://wallpapers.com/images/hd/aesthetic-white-background-hk57f53kz3dgjr1b.jpg);
+    padding-left: 100px;
+    padding-right: 100px;
+border-top: 1px solid white;
+border-bottom: 1px solid white;
+        }
+
+
+        .crane {
+            width: 100%;
+            overflow:hidden;
+            white-space: nowrap;
+            background:rgba(255, 255, 255, 0);
+           
+            position: relative;
+            padding: 10px 0;
+            border-left: 1px rgba(113, 123, 138, 0.809) dotted;
+
+        }
+        .crane-content {
+            display: flex;
+            animation: scroll 12s linear infinite;
+            width: max-content;
+        }
+          
+          .track {
+            display: flex;
+            animation: scroll 12s linear infinite;
+            width: max-content;
+          }
+          
+          .track img {
+            width: 500px;
+            height: 500px;
+            object-fit: cover;
+    
+          }
+          
+          @keyframes scroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+          }
+
+          .deskripsi {
+            margin-left: 100px;
+            margin-right: 100px;
+            text-align: justify;
+            background-color: rgba(127, 241, 169, 0.514);
+            background-image: url(https://wallpapers.com/images/hd/aesthetic-white-background-hk57f53kz3dgjr1b.jpg);
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            border: solid rgb(247, 243, 214) 2px;
+            color: rgb(255, 255, 255);
+            background-repeat:no-repeat;
+            background-attachment: fixed;
+            background-size:100% ;
+            text-shadow: rgb(0, 0, 1) 2px 2px 2px;
+            padding: 20px;
+          }
+
+          .deskripsi-img {
+display: flex;
+align-items: flex-start;
+gap: 20px;
+          }
+         
+
+table,th.tr {
+    margin-left: 20px;
+margin-right: 20px;
+padding: 0px;
+border-spacing: 10px;}
+
+          body {
+            background-color: rgb(255, 255, 255);
+            background-image: url(https://img.freepik.com/premium-photo/elegant-tea-party-sunlit-garden_1022456-147352.jpg);
+            background-repeat:no-repeat;
+            background-attachment: fixed;
+             background-size:100% ;
+            margin-left: 40x;
+            margin-right: 40px;  
+        }
+
+        .more {display: none;}
+
+        .toggle-sidebar {
+            border: 1px dotted white;
+            background-color: #f6f6f693;
+            color: white;
+            font-weight: bold;
+            padding: 10px;
+            position:left;
+            right: 10px;
+            top: 10px;
+            cursor: pointer;
+            text-shadow: rgb(0, 0, 1) 2px 2px 2px;
+          }
+          .sidebar {
+            height: 100px;
+            width: 200px;
+            list-style: none;
+            background-color: #3098af00;
+            
+            position: fixed;
+            left: -200px;
+            transition: 0.5s;
+            text-shadow: rgb(0, 0, 1) 2px 2px 2px;
+          }
+         
+          .sidebar-open {
+            left: 0;
+          }
+          .sidebar li a {
+            display: block;
+            padding: 25px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-bottom: 1px solid silver;
+            transition: background-color 0.5s;
+            text-shadow: rgb(0, 0, 1) 2px 2px 2px;
+          }
+          .sidebar li a:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+          }
+
+         .illus {
+          margin-right: 100px;
+          margin-left: 100px;
+            text-align: center;
+            background-color: rgba(127, 241, 169, 0.514);
+            background-image: url(https://wallpapers.com/images/hd/aesthetic-white-background-hk57f53kz3dgjr1b.jpg);
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            border: solid rgb(247, 243, 214) 2px;
+            color: rgb(255, 255, 255);
+            background-repeat:no-repeat;
+            background-attachment: fixed;
+            background-size:100% ;
+            text-shadow: rgb(0, 0, 1) 2px 2px 2px;
+            padding: 20px;
+
+         }
